@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  cezary.waluszko.service1:
+    image: ${DOCKER_REGISTRY-}cezarywaluszkoservice1
+    build:
+      context: .
+      dockerfile: Cezary.Waluszko.Service1\Dockerfile
+
+  cezary.waluszko.service2:
+    image: ${DOCKER_REGISTRY-}cezarywaluszkoservice2
+    build:
+      context: .
+      dockerfile: Cezary.Waluszko.Service2\Dockerfile
+
+
+  cezary.waluszko.service3:
+    image: ${DOCKER_REGISTRY-}cezarywaluszkoservice3
+    build:
+      context: .
+      dockerfile: Cezary.Waluszko.Service3\Dockerfile
+

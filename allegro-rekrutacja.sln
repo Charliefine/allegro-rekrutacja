@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cezary.Waluszko.Service1", "Cezary.Waluszko.Service1\Cezary.Waluszko.Service1.csproj", "{5409A440-F178-4748-8E08-68DA70DDEE1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cezary.Waluszko.Service2", "Cezary.Waluszko.Service2\Cezary.Waluszko.Service2.csproj", "{8656C17A-50ED-43F9-AEB2-25C7788CAB3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cezary.Waluszko.Service3", "Cezary.Waluszko.Service3\Cezary.Waluszko.Service3.csproj", "{8B815501-6C18-4AAE-9838-2D74400160F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cezary.Waluszko.Service1.Tests", "Cezary.Waluszko.Service1.Tests\Cezary.Waluszko.Service1.Tests.csproj", "{5067BDB1-A76C-4CEF-854A-4329F95DB4B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cezary.Waluszko.Service2.Tests", "Cezary.Waluszko.Service2.Tests\Cezary.Waluszko.Service2.Tests.csproj", "{19721937-52FD-4CA8-A41B-5252725D3C40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cezary.Waluszko.Service3.Tests", "Cezary.Waluszko.Service3.Tests\Cezary.Waluszko.Service3.Tests.csproj", "{8DEAA860-D802-43B6-8C4C-5CF671EE99F7}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6D72AF41-5138-48BF-BA53-CB10F283D6D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5409A440-F178-4748-8E08-68DA70DDEE1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5409A440-F178-4748-8E08-68DA70DDEE1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5409A440-F178-4748-8E08-68DA70DDEE1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5409A440-F178-4748-8E08-68DA70DDEE1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8656C17A-50ED-43F9-AEB2-25C7788CAB3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8656C17A-50ED-43F9-AEB2-25C7788CAB3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8656C17A-50ED-43F9-AEB2-25C7788CAB3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8656C17A-50ED-43F9-AEB2-25C7788CAB3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B815501-6C18-4AAE-9838-2D74400160F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B815501-6C18-4AAE-9838-2D74400160F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B815501-6C18-4AAE-9838-2D74400160F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B815501-6C18-4AAE-9838-2D74400160F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5067BDB1-A76C-4CEF-854A-4329F95DB4B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5067BDB1-A76C-4CEF-854A-4329F95DB4B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5067BDB1-A76C-4CEF-854A-4329F95DB4B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5067BDB1-A76C-4CEF-854A-4329F95DB4B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19721937-52FD-4CA8-A41B-5252725D3C40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19721937-52FD-4CA8-A41B-5252725D3C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19721937-52FD-4CA8-A41B-5252725D3C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19721937-52FD-4CA8-A41B-5252725D3C40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DEAA860-D802-43B6-8C4C-5CF671EE99F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DEAA860-D802-43B6-8C4C-5CF671EE99F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DEAA860-D802-43B6-8C4C-5CF671EE99F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DEAA860-D802-43B6-8C4C-5CF671EE99F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D72AF41-5138-48BF-BA53-CB10F283D6D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D72AF41-5138-48BF-BA53-CB10F283D6D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D72AF41-5138-48BF-BA53-CB10F283D6D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D72AF41-5138-48BF-BA53-CB10F283D6D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A547A3C-4ABC-4AB4-985A-6E9A2518BE15}
+	EndGlobalSection
+EndGlobal
